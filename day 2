@@ -1,0 +1,9 @@
+--- DAY 2 UPDATE ---
+DAY 2 | COMPLETED | 49 minutes | Level: 4/5
+Notes:
+- Learned deeper about index, composite index, and leftmost prefix rule
+- Understood covering index vs SELECT *
+- Practiced performance-aware filtering with range conditions
+- Strong improvement in GROUP BY usage
+
+  query: no record
