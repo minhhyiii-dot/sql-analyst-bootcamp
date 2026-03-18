@@ -1,9 +1,33 @@
-# sql-analyst-bootcamp
-42-day SQL training journey with daily logs and progress tracking
-- 14-day streak 
-- Daily SQL practice (60–90 mins)
-- Focus: SQL → Data Validation → Analyst Thinking
+# E-commerce SQL Analysis
 
-This is a bootcamp I create to transform chatgpt to my mentor. All the point i have is from chat gpt
+## 🚀 Highlights (Day 1–14)
 
-👉 See full learning log below
+- Built multi-table JOIN queries (4+ tables)
+- Detected JOIN explosion and fixed aggregation errors
+- Implemented payment validation logic (real business scenario)
+- Practiced data integrity checks using recalculated metrics
+
+---
+
+## 📌 Project Overview
+
+This project analyzes e-commerce data including:
+- Revenue
+- Payments
+- Customers
+
+Using SQL to extract insights and validate business logic.
+
+---
+
+## 📂 Structure
+
+- /queries → SQL practice & analysis
+- /SQL-Analyst-Bootcamp-42Days → daily learning logs
+
+---
+
+## 📈 Progress
+
+Currently on Day 14 of a 42-day SQL bootcamp.  
+Repository is continuously updated.
