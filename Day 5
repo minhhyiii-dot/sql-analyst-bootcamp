@@ -1,0 +1,14 @@
+--- DAY 5 UPDATE ---
+DAY 5 | COMPLETED | ~1h 30m | Level: 4/5
+Notes:
+- Practiced LEFT JOIN logic and identifying missing relationships using LEFT JOIN + IS NULL.
+- Explored differences between JOIN vs EXISTS for filtering related records.
+- Built queries to detect orders without payments and customers with unpaid orders.
+- First solid practice with window functions using DENSE_RANK().
+(minhyi notes: still need tons of help and not trully understanding this part.)
+- Successfully wrote a query to retrieve the Top 3 customers by revenue in each city.
+(minhyi notes: still need tons of help and not trully understanding this part.)
+- Reinforced awareness of column semantics (e.g., payment_status vs payment_id).
+- Improved ability to structure multi-step analytical queries using subqueries.
+
+query: no record
