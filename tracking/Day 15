@@ -27,6 +27,7 @@ Bootcamp Progress Update:
 
 Current Streak: 15 Days
 Bootcamp Progress: Day 15 / 42
+Completion: ~36%
 
 query:
 Task 1 — Global Total
@@ -60,4 +61,4 @@ SELECT
     (o.total_amount / SUM(o.total_amount) OVER (PARTITION BY o.customer_id)) * 100 AS pct_of_customer_spend
 FROM orders o
 
-Completion: ~36%
+
