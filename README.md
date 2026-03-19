@@ -1,6 +1,6 @@
 # E-commerce SQL Analysis
 
-## 🚀 Highlights (Day 1–16)
+## Highlights (Day 1–16)
 
 - Built multi-table JOIN queries (4+ tables)
 - Detected JOIN explosion and fixed aggregation errors
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyzes e-commerce data including:
 - Revenue
@@ -20,7 +20,7 @@ Using SQL to extract insights and validate business logic.
 
 ---
 
-## 📂 Structure
+## Structure
 
 - /queries → SQL practice & analysis
 - /SQL-Analyst-Bootcamp-42Days → daily learning logs
@@ -28,8 +28,9 @@ Using SQL to extract insights and validate business logic.
 ---This is a self-designed bootcamp where ChatGPT acts as a mentor, while all SQL logic and problem-solving are developed through hands-on practice.
 
 
-## 📈 Progress
+##  Progress
 
 Currently on Day 14 of a 42-day SQL bootcamp.  
 Repository is continuously updated.
+
 👉 See full learning log below
