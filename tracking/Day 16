@@ -1,0 +1,59 @@
+--- DAY 16 UPDATE ---
+
+DAY 16 | COMPLETED | ~2h | Level: 4.2/5
+
+Focus Topic: ROW_NUMBER() & Ranking Logic
+
+Session Notes:
+
+* Practiced using ROW_NUMBER() to rank data within groups (top N per group, latest record logic).
+* Applied PARTITION BY and ORDER BY correctly in multiple scenarios.
+* Successfully built ranking queries for:
+  • most expensive item per order
+  • top customers by spending in each city
+  • latest order per customer
+* Gained better understanding of how window functions work without collapsing rows.
+* Attempted an advanced analytical query involving product revenue and category contribution.
+* Identified weaknesses in:
+  • mixing row-level data with aggregated data
+  • structuring multi-layer queries
+  • maintaining clear logic when queries become complex
+* Experienced cognitive overload when handling queries with many steps.
+
+Minhyi Notes:
+
+* I understand the concept of window functions, but I get confused when the query becomes long.
+* I still struggle to clearly separate data levels (item vs product vs category).
+* Complex queries make me lose control of the logic.
+* I need more practice with small patterns before doing advanced problems.
+
+Key Lesson:
+
+"Window functions allow us to analyze data without losing detail, but they must be used on the correct data level."
+
+Performance Evaluation:
+
+* Window function usage: 4.5/5
+* Query correctness: 4/5
+* Analytical thinking: 3.5/5
+* Handling complexity: 3/5
+
+Final Score: 4.2/5
+
+Progress Update:
+
+* Window Functions: ~40%
+* SQL Maturity Level: ~3.5 / 5
+
+Critical Weakness:
+
+"Loses control when a query has more than 3 logical layers."
+
+Assignment for Next Session:
+
+* Practice only core patterns:
+  • Top 1 per group
+  • Top N per group
+  • Percentage within group
+
+Do not move to advanced problems until these patterns are fully comfortable.
