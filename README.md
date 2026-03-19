@@ -1,6 +1,6 @@
 # E-commerce SQL Analysis
 
-## 🚀 Highlights (Day 1–14)
+## 🚀 Highlights (Day 1–16)
 
 - Built multi-table JOIN queries (4+ tables)
 - Detected JOIN explosion and fixed aggregation errors
