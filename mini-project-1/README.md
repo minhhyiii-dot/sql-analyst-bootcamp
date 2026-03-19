@@ -19,6 +19,13 @@ This project answers four main business questions:
 *   **Common Table Expressions (CTEs)**: To make complex queries easier to read and manage, especially in the Payment Validation and Above Average Customer tasks.
 *   **CASE Statements**: To create conditional logic for the Payment Validation status (e.g., 'correct paid', 'underpaid').
 
+## Key Insights
+
+- A small group of customers generates a large part of total revenue
+- Some products have higher sales than others
+- Most orders are fully paid, showing a stable payment process
+- Some customers spend more than the average, showing that there is a difference in customer spending behavior
+  
 ## How to Use
 
 1.  Set up the database using your `ecommerce_db.sql` file.
