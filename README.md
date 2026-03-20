@@ -1,13 +1,6 @@
 # E-commerce SQL Analysis
 
-## Highlights (Day 1–16)
-
-- Built multi-table JOIN queries (4+ tables)
-- Detected JOIN explosion and fixed aggregation errors
-- Implemented payment validation logic (real business scenario)
-- Practiced data integrity checks using recalculated metrics
-
----
+## Streaks: 17
 
 ## Project Overview
 
