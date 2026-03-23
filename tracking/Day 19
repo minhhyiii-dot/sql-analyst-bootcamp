@@ -1,0 +1,109 @@
+--- DAY 19 UPDATE ---
+
+DAY 19 | COMPLETED | 53 minutes | Level: 4.6/5
+
+Focus Topic: Running Total & Cumulative Percentage
+
+Session Notes:
+
+- Practiced running total using SUM() OVER (ORDER BY ...) to track cumulative revenue over time.
+- Successfully built daily revenue metric before applying window functions (correct data level control).
+- Implemented cumulative percentage using running_total / grand_total.
+- Corrected a major logic mistake from earlier attempt (removed incorrect PARTITION BY in global trend analysis).
+- Demonstrated clear understanding of difference between grouped aggregation vs window aggregation.
+
+Minhyi Notes:
+
+- Understood that ORDER BY is required for running total (defines timeline).
+- Realized that cumulative percentage must use consistent aggregation level (no mixing partition vs global).
+- Initially confused between customer-level vs global-level analysis.
+- Still need to improve depth in business interpretation of trends.
+
+Key Lesson:
+
+"Running total is a time-based analytical tool used to track growth, not just a cumulative calculation."
+
+Performance Evaluation:
+
+Window function usage: 4.7/5  
+Query correctness: 4.8/5  
+Data level control: 4.6/5  
+Business thinking: 4.2/5  
+
+Final Score: 4.6/5
+
+Progress Update:
+
+Window Functions: ~70%  
+SQL Maturity Level: ~3.8 / 5  
+
+Critical Weakness:
+
+"Business interpretation still lags behind technical execution."
+
+Bootcamp Progress Update:
+
+Current Streak: 19 Days  
+Bootcamp Progress: Day 19 / 42  
+Completion: ~45%
+
+
+query:
+Task1: Daily Revenue Running Total
+WITH daily AS(
+    SELECT
+    date(o.order_date) AS order_date,
+    SUM(o.total_amount) AS daily_revenue
+    FROM orders o 
+    WHERE o.status = 'completed'
+    GROUP BY date(o.order_date)
+)
+SELECT 
+order_date,
+daily_revenue,
+SUM(daily_revenue) over(ORDER BY order_date) AS running_total
+FROM daily
+
+Task2: Customer-Level Running Revenue
+WITH customer_revenue AS(
+    SELECT
+    o.customer_id,
+    c.full_name,
+    date(o.order_date) AS date,
+    SUM(o.total_amount) AS daily_customer_revenue
+    FROM orders o 
+    JOIN customers c ON o.customer_id = c.customer_id
+    WHERE o.status = 'completed'
+    GROUP BY o.customer_id, c.full_name, date(o.order_date)
+)
+SELECT
+customer_id,
+full_name,
+date,
+daily_customer_revenue,
+SUM(daily_customer_revenue) over(PARTITION BY customer_id ORDER BY date) AS running_total
+FROM customer_revenue
+ORDER BY customer_id, date
+
+Task3: Cumulative Revenue Percentage Over Time
+WITH daily_revenue AS(
+    SELECT
+    date(o.order_date) AS date,
+    SUM(o.total_amount) AS daily_revenue
+    FROM orders o 
+    WHERE o.status = 'completed'
+    GROUP BY date(o.order_date)
+),
+total AS(
+SELECT
+date,
+daily_revenue,
+SUM(daily_revenue) over(ORDER BY date) AS running_total,
+SUM(daily_revenue) over() AS grand_total
+FROM daily_revenue
+ORDER BY date
+) 
+SELECT 
+*,
+running_total * 1.0 / grand_total * 100 AS pct
+FROM total
