@@ -52,9 +52,7 @@ Bootcamp Progress: Day 21 / 42
 Completion: ~50%
 
 ## Query
- 
 Identify top-performing products within each category and evaluate their contribution to total revenue
-
 ```sql
 WITH product_revenue AS(
     SELECT

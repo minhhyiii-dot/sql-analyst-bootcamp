@@ -48,6 +48,7 @@ WHERE o.status = 'completed'
 GROUP BY o.customer_id;
 
 ```
+
 ### 2.Top 5 Product
 ```sql
 SELECT
@@ -61,6 +62,7 @@ ORDER BY prod_revenue DESC
 LIMIT 5;
 
 ```
+
 ### 3.Payment Validation
 ```sql
 WITH totalpaid AS(
@@ -96,6 +98,7 @@ FROM calcamount ca
 LEFT JOIN totalpaid tp ON tp.order_id = ca.order_id;
 
 ```
+
 ### 4.Above Average Customer
 ```sql
 WITH totalspent AS(

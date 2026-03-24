@@ -53,10 +53,9 @@ Critical Weakness:
 
 "Still occasionally overcomplicates solutions and misses exact business requirement."
 
-
 ## Query
 
-TASK 1 — Customer Contribution
+### TASK 1
 ```sql
 WITH total_order AS (
     SELECT
@@ -76,8 +75,10 @@ SELECT
 FROM total_order ot
 ORDER BY ot.customer_id, ot.order_id
 
+```
 
-TASK 2 — Orders Flag
+### TASK 2
+```sql
 SELECT
     t.*,
     CASE
@@ -95,8 +96,10 @@ FROM (
     FROM orders o
 ) t
 
+```
 
-TASK 3 — Product Contribution in Order
+### TASK 3
+```sql
 SELECT
     o.order_id,
     o.customer_id,

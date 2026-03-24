@@ -60,9 +60,7 @@ Do not move to advanced problems until these patterns are fully comfortable.
 
 ## Query
 
-### Task 1 — Most Expensive Item per Order
-
-
+### Task 1
 ```sql
 SELECT *
 FROM (
@@ -77,13 +75,9 @@ FROM (
 ) t
 WHERE rn = 1
 
-
-
-
 ```
-### Task 2 — Top 3 Customers by Spending in Each City
 
-
+### Task 2
 ```sql
 WITH totalspent AS (
     SELECT
@@ -110,12 +104,9 @@ FROM (
 ) t
 WHERE rn <= 3
 
-
-
-
 ```
-### Task 3 — Latest Order per Customer
 
+### Task 3
 ```sql
 SELECT *
 FROM (
@@ -130,6 +121,5 @@ FROM (
 WHERE rn = 1;
 
 ---
-
 
 ```

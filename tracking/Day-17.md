@@ -41,9 +41,6 @@ Critical Weakness:
 "Still weak in detecting ties and grouping by correct analytical dimension."
 
 ## Query
-
-
-
 Problem: Find top 3 customers by total spending in each city.
 ```sql
 WITH order_value AS (

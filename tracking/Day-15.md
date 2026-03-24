@@ -31,9 +31,8 @@ Completion: ~36%
 
 ## Query
 
-### Task 1 — Global Total
+### Task 1
 Task: For each order, display: order_id, customer_id, total_amount, and the total revenue across all orders as a new column on the same row.
-
 ```sql
 SELECT
     o.order_id,
@@ -43,9 +42,9 @@ SELECT
 FROM orders o
 
 ```
-### Task 2 — PARTITION BY Customer
-Task: For each order, display: order_id, customer_id, total_amount, and the total spending of that customer — without collapsing rows.
 
+### Task 2
+Task: For each order, display: order_id, customer_id, total_amount, and the total spending of that customer — without collapsing rows.
 ```sql
 SELECT
     o.order_id,
@@ -55,9 +54,9 @@ SELECT
 FROM orders o
 
 ```
-### Task 3 — % of Customer Spend
-Task: For each order, calculate what percentage of that customer's total spending this order represents. Required columns: order_id, customer_id, total_amount, customer_total, pct_of_customer_spend.
 
+### Task 3
+Task: For each order, calculate what percentage of that customer's total spending this order represents. Required columns: order_id, customer_id, total_amount, customer_total, pct_of_customer_spend.
 ```sql
 SELECT
     o.order_id,
@@ -66,7 +65,5 @@ SELECT
     SUM(o.total_amount) OVER (PARTITION BY o.customer_id) AS customer_total,
     (o.total_amount / SUM(o.total_amount) OVER (PARTITION BY o.customer_id)) * 100 AS pct_of_customer_spend
 FROM orders o
-
-
 
 ```

@@ -7,3 +7,4 @@ Notes:
 - Identified main difficulty as translating business questions into SQL logic
 
   query: no record
+## Query

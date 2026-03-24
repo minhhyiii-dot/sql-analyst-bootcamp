@@ -47,10 +47,9 @@ Current Streak: 19 Days
 Bootcamp Progress: Day 19 / 42  
 Completion: ~45%
 
-
 ## Query
 
-Task1: Daily Revenue Running Total
+### Task1
 ```sql
 WITH daily AS(
     SELECT
@@ -66,7 +65,10 @@ daily_revenue,
 SUM(daily_revenue) over(ORDER BY order_date) AS running_total
 FROM daily
 
-Task2: Customer-Level Running Revenue
+```
+
+### Task2
+```sql
 WITH customer_revenue AS(
     SELECT
     o.customer_id,
@@ -87,7 +89,10 @@ SUM(daily_customer_revenue) over(PARTITION BY customer_id ORDER BY date) AS runn
 FROM customer_revenue
 ORDER BY customer_id, date
 
-Task3: Cumulative Revenue Percentage Over Time
+```
+
+### Task3
+```sql
 WITH daily_revenue AS(
     SELECT
     date(o.order_date) AS date,
