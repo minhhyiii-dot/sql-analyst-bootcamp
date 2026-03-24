@@ -50,7 +50,7 @@ Completion: ~48%
 
 ## Query
 
-### Task 1
+### Task 1: Customers Above Average Spending
 ```sql
 WITH total_spending AS(
     SELECT
@@ -74,7 +74,7 @@ WHERE ts.total_spending > avs.average
 
 ```
 
-### Task 2
+### Task 2: Top 2 Customers by Spending in Each City
 ```sql
 WITH customer_spending AS(
     SELECT
@@ -101,7 +101,7 @@ WHERE rank <= 2
 
 ```
 
-### Task 3
+### Task 3: Detect Payment Mismatch Orders
 ```sql
 WITH paid_amount AS(
     SELECT 

@@ -55,7 +55,7 @@ Critical Weakness:
 
 ## Query
 
-### TASK 1
+### TASK 1: Customer Contribution
 ```sql
 WITH total_order AS (
     SELECT
@@ -77,7 +77,7 @@ ORDER BY ot.customer_id, ot.order_id
 
 ```
 
-### TASK 2
+### TASK 2: Orders Flag
 ```sql
 SELECT
     t.*,
@@ -98,7 +98,7 @@ FROM (
 
 ```
 
-### TASK 3
+### TASK 3: Product Contribution in Order
 ```sql
 SELECT
     o.order_id,

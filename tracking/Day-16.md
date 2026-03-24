@@ -59,8 +59,7 @@ Assignment for Next Session:
 Do not move to advanced problems until these patterns are fully comfortable.
 
 ## Query
-
-### Task 1
+### Task 1: Most Expensive Item per Order
 ```sql
 SELECT *
 FROM (
@@ -77,7 +76,7 @@ WHERE rn = 1
 
 ```
 
-### Task 2
+### Task 2: Top 3 Customers by Spending in Each City
 ```sql
 WITH totalspent AS (
     SELECT
@@ -106,7 +105,7 @@ WHERE rn <= 3
 
 ```
 
-### Task 3
+### Task 3: Latest Order per Customer
 ```sql
 SELECT *
 FROM (

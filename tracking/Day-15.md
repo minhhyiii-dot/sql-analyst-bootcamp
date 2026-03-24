@@ -30,8 +30,7 @@ Bootcamp Progress: Day 15 / 42
 Completion: ~36%
 
 ## Query
-
-### Task 1
+### Task 1: Global Total
 Task: For each order, display: order_id, customer_id, total_amount, and the total revenue across all orders as a new column on the same row.
 ```sql
 SELECT
@@ -43,7 +42,8 @@ FROM orders o
 
 ```
 
-### Task 2
+### Task 2: PARTITION BY Customer
+
 Task: For each order, display: order_id, customer_id, total_amount, and the total spending of that customer — without collapsing rows.
 ```sql
 SELECT
@@ -55,7 +55,8 @@ FROM orders o
 
 ```
 
-### Task 3
+### Task 3: % of Customer Spend
+
 Task: For each order, calculate what percentage of that customer's total spending this order represents. Required columns: order_id, customer_id, total_amount, customer_total, pct_of_customer_spend.
 ```sql
 SELECT

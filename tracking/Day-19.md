@@ -49,7 +49,7 @@ Completion: ~45%
 
 ## Query
 
-### Task1
+### Task1: Daily Revenue Running Total
 ```sql
 WITH daily AS(
     SELECT
@@ -67,7 +67,7 @@ FROM daily
 
 ```
 
-### Task2
+### Task2: Customer-Level Running Revenue
 ```sql
 WITH customer_revenue AS(
     SELECT
@@ -91,7 +91,7 @@ ORDER BY customer_id, date
 
 ```
 
-### Task3
+### Task3: Cumulative Revenue Percentage Over Time
 ```sql
 WITH daily_revenue AS(
     SELECT

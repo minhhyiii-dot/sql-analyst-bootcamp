@@ -38,7 +38,7 @@ Completion: ~33%
 
 ## Query
 
-### 1.Customer Revenue
+### 1. Customer Revenue
 ```sql
 SELECT
 o.customer_id,
@@ -49,7 +49,7 @@ GROUP BY o.customer_id;
 
 ```
 
-### 2.Top 5 Product
+### 2. Top 5 Product
 ```sql
 SELECT
 oi.product_id,
@@ -63,7 +63,7 @@ LIMIT 5;
 
 ```
 
-### 3.Payment Validation
+### 3. Payment Validation
 ```sql
 WITH totalpaid AS(
     SELECT 
@@ -99,7 +99,7 @@ LEFT JOIN totalpaid tp ON tp.order_id = ca.order_id;
 
 ```
 
-### 4.Above Average Customer
+### 4. Above Average Customer
 ```sql
 WITH totalspent AS(
     SELECT
