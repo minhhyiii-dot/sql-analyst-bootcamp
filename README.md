@@ -1,6 +1,6 @@
 # E-commerce SQL Analysis
 
-## Streaks: 17
+## Streaks: 21
 
 ## Project Overview
 
