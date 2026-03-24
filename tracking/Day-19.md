@@ -1,10 +1,10 @@
---- DAY 19 UPDATE ---
+# DAY 19 UPDATE
 
-DAY 19 | COMPLETED | 53 minutes | Level: 4.6/5
+**DAY 19 | COMPLETED | 53 minutes | Level: 4.6/5**
 
-Focus Topic: Running Total & Cumulative Percentage
+## Focus Topic Running Total & Cumulative Percentage
 
-Session Notes:
+## Session Notes
 
 - Practiced running total using SUM() OVER (ORDER BY ...) to track cumulative revenue over time.
 - Successfully built daily revenue metric before applying window functions (correct data level control).
@@ -12,14 +12,14 @@ Session Notes:
 - Corrected a major logic mistake from earlier attempt (removed incorrect PARTITION BY in global trend analysis).
 - Demonstrated clear understanding of difference between grouped aggregation vs window aggregation.
 
-Minhyi Notes:
+## Minhyi Notes
 
 - Understood that ORDER BY is required for running total (defines timeline).
 - Realized that cumulative percentage must use consistent aggregation level (no mixing partition vs global).
 - Initially confused between customer-level vs global-level analysis.
 - Still need to improve depth in business interpretation of trends.
 
-Key Lesson:
+## Key Lesson
 
 "Running total is a time-based analytical tool used to track growth, not just a cumulative calculation."
 
@@ -41,15 +41,17 @@ Critical Weakness:
 
 "Business interpretation still lags behind technical execution."
 
-Bootcamp Progress Update:
+## Bootcamp Progress Update
 
 Current Streak: 19 Days  
 Bootcamp Progress: Day 19 / 42  
 Completion: ~45%
 
 
-query:
+## Query
+
 Task1: Daily Revenue Running Total
+```sql
 WITH daily AS(
     SELECT
     date(o.order_date) AS order_date,
@@ -107,3 +109,5 @@ SELECT
 *,
 running_total * 1.0 / grand_total * 100 AS pct
 FROM total
+
+```

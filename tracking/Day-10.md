@@ -1,14 +1,14 @@
 DAY 10 UPDATE
-DAY 10 | COMPLETED | 42 minutes | Level: 4.9/5
+**DAY 10 | COMPLETED | 42 minutes | Level: 4.9/5**
 
-Focus Topic: EXISTS & NOT EXISTS
+## Focus Topic EXISTS & NOT EXISTS
 
 Tasks Completed:
 • Task 1 – Customers with at least one completed order
 • Task 2 – Products never ordered
 • Task 3 – Orders without successful payment
 
-Session Notes:
+## Session Notes
 - Demonstrated correct usage of EXISTS / NOT EXISTS for relationship filtering.
 - Avoided unnecessary JOINs when only existence checks were required.
 - Queries showed clean correlated logic linking outer and inner tables.
@@ -22,7 +22,7 @@ Performance Evaluation:
 - Logical structure: Analyst-level pattern
 - Execution time: 42 minutes (efficient)
 
-Key Lesson:
+## Key Lesson
 “When the question is about existence of related records, use EXISTS instead of JOIN.”
 
 Skill Progression Update:
@@ -38,4 +38,5 @@ Current Streak: 10 Days
 Progress: Day 10 / 42
 Completion: ~24%
 
-query: no record
+## Query
+ no record

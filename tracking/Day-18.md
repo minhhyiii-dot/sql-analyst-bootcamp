@@ -1,10 +1,10 @@
---- DAY 18 UPDATE ---
+# DAY 18 UPDATE
 
-DAY 18 | COMPLETED | 1h 05m 20s | Level: 4.4/5
+**DAY 18 | COMPLETED | 1h 05m 20s | Level: 4.4/5**
 
-Focus Topic: PARTITION BY Deep Dive
+## Focus Topic PARTITION BY Deep Dive
 
-Session Notes:
+## Session Notes
 
 - Practiced core PARTITION BY patterns including:
     • percentage contribution within group
@@ -21,7 +21,7 @@ Session Notes:
 
 - Identified importance of correct data type handling in division operations.
 
-Minhyi Notes:
+## Minhyi Notes
 
 - Understood how PARTITION BY creates logical groups without affecting row count.
 
@@ -31,7 +31,7 @@ Minhyi Notes:
 
 - Need to improve reading comprehension of business requirements before writing queries.
 
-Key Lesson:
+## Key Lesson
 
 "PARTITION BY allows group-level analysis without losing row-level detail — but correctness depends on data level control and precise logic."
 
@@ -54,8 +54,10 @@ Critical Weakness:
 "Still occasionally overcomplicates solutions and misses exact business requirement."
 
 
-query:
+## Query
+
 TASK 1 — Customer Contribution
+```sql
 WITH total_order AS (
     SELECT
         o.order_id,
@@ -107,3 +109,5 @@ FROM orders o
 JOIN order_items oi ON o.order_id = oi.order_id
 
 quẻy
+
+```

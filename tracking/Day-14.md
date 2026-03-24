@@ -1,10 +1,10 @@
---- DAY 14 UPDATE ---
+# DAY 14 UPDATE
 
-DAY 14 | COMPLETED | 1h | Level: 4.8/5
+**DAY 14 | COMPLETED | 1h | Level: 4.8/5**
 
-Focus Topic: Project 2 — Payment Validation & Data Integrity
+## Focus Topic Project 2 — Payment Validation & Data Integrity
 
-Session Notes:
+## Session Notes
 
 - Built a full validation query comparing orders.total_amount vs SUM(payments.paid_amount).
 - Applied multi-layer aggregation using CTEs to separate calculation logic (payments vs recalculated order value).
@@ -19,25 +19,27 @@ Session Notes:
     • mismatched payment vs order value
 - Reinforced importance of filtering payment_status = 'paid' before aggregation.
 
-Minhyi Notes:
+## Minhyi Notes
 
 - Initially used INNER JOIN which caused loss of orders without payment records.
 - Realized that the issue was not missing columns, but losing rows due to join type.
 - Switched to LEFT JOIN to preserve all orders and correctly detect "no payment" cases.
 - Understood that validation queries must always include missing-data scenarios, not just mismatched values.
 
-Key Lesson:
+## Key Lesson
 
 "Data validation is not just comparing numbers — it requires preserving missing cases and correctly structuring joins to reflect business reality."
 
-Bootcamp Progress Update:
+## Bootcamp Progress Update
 
 Current Streak: 14 Days
 Bootcamp Progress: Day 14 / 42
 Completion: ~33%
 
-query:
-1.Customer Revenue
+## Query
+
+### 1.Customer Revenue
+```sql
 SELECT
 o.customer_id,
 SUM(O.total_amount) AS total_spent
@@ -45,7 +47,9 @@ FROM orders o
 WHERE o.status = 'completed'
 GROUP BY o.customer_id;
 
-2.Top 5 Product
+```
+### 2.Top 5 Product
+```sql
 SELECT
 oi.product_id,
 p.product_name,
@@ -56,7 +60,9 @@ GROUP BY oi.product_id
 ORDER BY prod_revenue DESC
 LIMIT 5;
 
-3.Payment Validation
+```
+### 3.Payment Validation
+```sql
 WITH totalpaid AS(
     SELECT 
     p.order_id,
@@ -89,7 +95,9 @@ END AS payment_validation
 FROM calcamount ca  
 LEFT JOIN totalpaid tp ON tp.order_id = ca.order_id;
 
-4.Above Average Customer
+```
+### 4.Above Average Customer
+```sql
 WITH totalspent AS(
     SELECT
     o.customer_id,
@@ -108,3 +116,5 @@ WHERE ts.total_spent > (
     SELECT AVG(total_spent)
     FROM totalspent
 );
+
+```

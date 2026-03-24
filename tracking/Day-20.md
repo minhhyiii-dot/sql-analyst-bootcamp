@@ -1,10 +1,10 @@
 ### --- DAY 20 UPDATE ---
 
-DAY 20 | COMPLETED | 46 minutes | Level: 4.3/5
+**DAY 20 | COMPLETED | 46 minutes | Level: 4.3/5**
 
-Focus Topic: CTE (Common Table Expression)
+## Focus Topic CTE (Common Table Expression)
 
-Session Notes:
+## Session Notes
 
 * Practiced structuring multi-layer queries using CTE to separate logical steps clearly.
 * Demonstrated ability to convert nested subqueries into cleaner CTE-based structure.
@@ -13,14 +13,14 @@ Session Notes:
 * Improved control over query complexity by breaking logic into manageable layers.
 * Identified key difference between scalar aggregation vs window aggregation in CTE design.
 
-Minhyi Notes:
+## Minhyi Notes
 
 * Initially overused window function for global average, causing unnecessary duplication of values.
 * Learned that global metrics should remain scalar instead of being expanded across rows.
 * Understood that CTE is mainly for readability and debugging, not performance optimization.
 * Still slightly confused when choosing between CTE vs subquery in simple cases.
 
-Key Lesson:
+## Key Lesson
 
 "CTE helps break complex queries into logical steps, allowing better control, readability, and step-by-step debugging."
 
@@ -42,14 +42,16 @@ Critical Weakness:
 
 "Still occasionally over-engineers simple logic and hesitates between CTE vs subquery."
 
-Bootcamp Progress Update:
+## Bootcamp Progress Update
 
 Current Streak: 20 Days
 Bootcamp Progress: Day 20 / 42
 Completion: ~48%
 
-query:
-Task 1: Customers Above Average Spending
+## Query
+
+### Task 1: Customers Above Average Spending
+```sql
 WITH total_spending AS(
     SELECT
     o.customer_id,
@@ -70,7 +72,9 @@ FROM total_spending ts
 JOIN average_spending avs 
 WHERE ts.total_spending > avs.average 
 
-Task 2: Top 2 Customers by Spending in Each City
+```
+### Task 2: Top 2 Customers by Spending in Each City
+```sql
 WITH customer_spending AS(
     SELECT
     o.customer_id,
@@ -94,7 +98,9 @@ r.*
 FROM ranking r
 WHERE rank <= 2
 
-Task 3: Detect Payment Mismatch Orders
+```
+### Task 3: Detect Payment Mismatch Orders
+```sql
 WITH paid_amount AS(
     SELECT 
     p.order_id,
@@ -125,3 +131,5 @@ FROM paid_amount pa
 LEFT JOIN order_total ot ON pa.order_id = ot.order_id
 
 
+
+```

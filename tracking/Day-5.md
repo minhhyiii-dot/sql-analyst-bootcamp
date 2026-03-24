@@ -1,5 +1,5 @@
---- DAY 5 UPDATE ---
-DAY 5 | COMPLETED | ~1h 30m | Level: 4/5
+# DAY 5 UPDATE
+**DAY 5 | COMPLETED | ~1h 30m | Level: 4/5**
 Notes:
 - Practiced LEFT JOIN logic and identifying missing relationships using LEFT JOIN + IS NULL.
 - Explored differences between JOIN vs EXISTS for filtering related records.
@@ -11,4 +11,5 @@ Notes:
 - Reinforced awareness of column semantics (e.g., payment_status vs payment_id).
 - Improved ability to structure multi-step analytical queries using subqueries.
 
-query: no record
+## Query
+ no record

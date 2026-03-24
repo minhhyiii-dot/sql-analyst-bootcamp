@@ -1,10 +1,10 @@
---- DAY 17 UPDATE ---
+# DAY 17 UPDATE
 
-DAY 17 | COMPLETED | ~60 minutes | Level: 4.4/5
+**DAY 17 | COMPLETED | ~60 minutes | Level: 4.4/5**
 
-Focus Topic: RANK() & DENSE_RANK()
+## Focus Topic RANK() & DENSE_RANK()
 
-Session Notes:
+## Session Notes
 
 - Practiced ranking functions (RANK, DENSE_RANK) with PARTITION BY across business scenarios.
 - Successfully built Top N queries (top customers per city, top products per category).
@@ -12,13 +12,13 @@ Session Notes:
 - Understood key difference between RANK() (with gaps) vs DENSE_RANK() (no gaps).
 - Identified business implication of ranking functions when handling ties.
 
-Minhyi Notes:
+## Minhyi Notes
 
 - Initially made a mistake when combining shipping_fee with aggregated item values, causing potential duplication.
 - Fixed by separating order-level and customer-level aggregation.
 - Still had confusion in detecting tie scenarios due to incorrect grouping logic.
 
-Key Lesson:
+## Key Lesson
 
 "Ranking functions must be applied on the correct aggregation level, and tie detection requires grouping by the metric — not the entity."
 
@@ -40,10 +40,12 @@ Critical Weakness:
 
 "Still weak in detecting ties and grouping by correct analytical dimension."
 
-query:
+## Query
+
 
 
 Problem: Find top 3 customers by total spending in each city.
+```sql
 WITH order_value AS (
     SELECT 
         o.order_id,
@@ -115,3 +117,5 @@ pr.product_revenue
 FROM product_revenue pr 
 GROUP BY pr.category_id, pr.product_revenue
 HAVING COUNT(*) >= 2
+
+```

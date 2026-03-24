@@ -20,4 +20,5 @@
 - Bootcamp Progress: Day 13 / 42
 - Completion: ~31%
 
-query: no record
+## Query
+ no record

@@ -1,6 +1,6 @@
---- DAY 6 UPDATE ---
+# DAY 6 UPDATE
 
-DAY 6 | COMPLETED | 53 minutes | Level: 4.2/5
+**DAY 6 | COMPLETED | 53 minutes | Level: 4.2/5**
 
 Notes:
 
@@ -11,4 +11,5 @@ Notes:
 - Learned that production-safe queries often require subqueries or CTEs to aggregate before joining.
 - Main difficulty: finishing the final condition logic within the time limit.
 
-query: no record
+## Query
+ no record

@@ -1,8 +1,8 @@
---- DAY 8 UPDATE ---
+# DAY 8 UPDATE
 
-DAY 8 | COMPLETED | 57 minutes | Level: 4.5/5
+**DAY 8 | COMPLETED | 57 minutes | Level: 4.5/5**
 
-Session Notes:
+## Session Notes
 - Practiced subquery fundamentals, including filtering using aggregated values from nested queries.
 - Successfully differentiated between global average metrics vs segmented averages (e.g., product price vs category average price).
 - Demonstrated understanding of correlated subqueries by comparing product price against the average price within its category.
@@ -13,12 +13,13 @@ Session Notes:
   aggregate metric → then average that metric
 - Practiced building intermediate metric tables using CTE structure to separate calculation layers.
 
-Minhyi Notes:
+## Minhyi Notes
 - Initially attempted to compute comparison using a single GROUP BY + HAVING layer.
 - Discovered why nested aggregates like AVG(SUM(...)) are invalid in the same query level.
 - Realized that solving business questions often requires building a metric first, then analyzing it in a second query layer.
 
-Key Lesson:
+## Key Lesson
 "When comparing aggregated metrics, compute the metric first, then aggregate the result in a separate query layer."
 
-query: no record
+## Query
+ no record

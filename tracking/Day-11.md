@@ -1,8 +1,8 @@
---- DAY 11 UPDATE ---
+# DAY 11 UPDATE
 
-DAY 11 | COMPLETED | 1h 11m 29s | Level: 4.4/5
+**DAY 11 | COMPLETED | 1h 11m 29s | Level: 4.4/5**
 
-Session Notes:
+## Session Notes
 
 - Practiced CASE WHEN logic for classification, segmentation, and data quality flags.
 - Applied conditional aggregation using SUM(CASE WHEN ...) and COUNT(CASE WHEN ...).
@@ -10,13 +10,14 @@ Session Notes:
 - Reinforced correct handling of NULL conditions inside CASE logic.
 - Identified common analyst mistakes such as COUNT(CASE ... ELSE 0 END) causing incorrect counts.
 
-Minhyi Notes:
+## Minhyi Notes
 
 - CASE WHEN syntax understood quickly but required careful ordering of conditions.
 - Realized conditional aggregation is a core technique for building dashboard metrics.
 
-Key Lesson:
+## Key Lesson
 
 "CASE WHEN enables conditional metrics and segmentation, which are fundamental for business analytics queries."
  
-query: no record
+## Query
+ no record

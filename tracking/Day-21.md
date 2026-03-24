@@ -1,10 +1,10 @@
---- DAY 21 UPDATE ---
+# DAY 21 UPDATE
 
-DAY 21 | COMPLETED | 2h | Level: 4.2/5
+**DAY 21 | COMPLETED | 2h | Level: 4.2/5**
 
-Focus Topic: Project 3 — Product Performance & Revenue Contribution
+## Focus Topic Project 3 — Product Performance & Revenue Contribution
 
-Session Notes:
+## Session Notes
 
 - Successfully built a multi-layer query using CTE and window functions to analyze product performance within each category.
 - Correctly structured the logic: product-level revenue → category-level aggregation → ranking and contribution analysis.
@@ -16,14 +16,14 @@ Session Notes:
 - Identified differences between concentrated vs evenly distributed categories.
 - Detected risk levels based on revenue concentration and category size.
 
-Minhyi Notes:
+## Minhyi Notes
 
 - Query structure is now stable, even with multiple layers.
 - Still weak in turning numbers into strong business insights.
 - Tendency to describe data instead of explaining its meaning.
 - Need to improve depth of reasoning and business interpretation.
 
-Key Lesson:
+## Key Lesson
 
 "Writing correct SQL is not enough — real value comes from interpreting what the numbers mean for the business."
 
@@ -45,15 +45,17 @@ Critical Weakness:
 
 "Can build correct queries, but insight is still surface-level and not fully business-driven."
 
-Bootcamp Progress Update:
+## Bootcamp Progress Update
 
 Current Streak: 21 Days  
 Bootcamp Progress: Day 21 / 42  
 Completion: ~50%
 
-query: 
+## Query
+ 
 Identify top-performing products within each category and evaluate their contribution to total revenue
 
+```sql
 WITH product_revenue AS(
     SELECT
     oi.product_id,
@@ -85,3 +87,5 @@ FROM rank_and_totalrev r
 JOIN categories cate on cate.category_id = r.category_id
 WHERE r.rank_in_category <= 3
 ORDER BY cate.category_name, r.rank_in_category ASC
+
+```

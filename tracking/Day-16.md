@@ -1,10 +1,10 @@
---- DAY 16 UPDATE ---
+# DAY 16 UPDATE
 
-DAY 16 | COMPLETED | ~2h | Level: 4.2/5
+**DAY 16 | COMPLETED | ~2h | Level: 4.2/5**
 
-Focus Topic: ROW_NUMBER() & Ranking Logic
+## Focus Topic ROW_NUMBER() & Ranking Logic
 
-Session Notes:
+## Session Notes
 
 * Practiced using ROW_NUMBER() to rank data within groups (top N per group, latest record logic).
 * Applied PARTITION BY and ORDER BY correctly in multiple scenarios.
@@ -58,10 +58,12 @@ Assignment for Next Session:
 
 Do not move to advanced problems until these patterns are fully comfortable.
 
-query:
-Task 1 — Most Expensive Item per Order
+## Query
+
+### Task 1 — Most Expensive Item per Order
 
 
+```sql
 SELECT *
 FROM (
     SELECT 
@@ -78,9 +80,11 @@ WHERE rn = 1
 
 
 
-Task 2 — Top 3 Customers by Spending in Each City
+```
+### Task 2 — Top 3 Customers by Spending in Each City
 
 
+```sql
 WITH totalspent AS (
     SELECT
         o.customer_id,
@@ -109,8 +113,10 @@ WHERE rn <= 3
 
 
 
-Task 3 — Latest Order per Customer
+```
+### Task 3 — Latest Order per Customer
 
+```sql
 SELECT *
 FROM (
     SELECT
@@ -125,3 +131,5 @@ WHERE rn = 1;
 
 ---
 
+
+```

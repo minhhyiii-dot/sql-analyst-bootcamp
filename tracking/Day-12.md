@@ -1,7 +1,7 @@
 DAY 12 UPDATE
-DAY 12 | COMPLETED | 43 minutes | Level: 4.5/5
+**DAY 12 | COMPLETED | 43 minutes | Level: 4.5/5**
 
-Focus Topic: Data Cleaning Logic / Data Integrity Checks
+## Focus Topic Data Cleaning Logic / Data Integrity Checks
 * Session Notes:
 - Practiced validating stored business metrics against calculated metrics.
 - Built queries comparing calculated order totals vs stored totals.
@@ -15,4 +15,5 @@ Focus Topic: Data Cleaning Logic / Data Integrity Checks
 * Bootcamp Progress: Day 12 / 42
 * Completion: ~29%
 
-query: no record
+## Query
+ no record

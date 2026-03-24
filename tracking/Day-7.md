@@ -1,8 +1,8 @@
---- DAY 7 UPDATE ---
+# DAY 7 UPDATE
 
-DAY 7 | COMPLETED | 1h 03m 20s | Level: 4.6/5
+**DAY 7 | COMPLETED | 1h 03m 20s | Level: 4.6/5**
 
-Session Notes:
+## Session Notes
 
 - Mini Project 1 focused on combining multiple joins and validating aggregation logic.
 - Practiced identifying JOIN explosion when multiple 1-to-many tables are joined before aggregation.
@@ -20,7 +20,8 @@ Reflection:
 - Need more independent practice recognizing aggregation errors and join behavior.
 - Confidence improving but analytical reasoning still developing.
 
-Key Lesson:
+## Key Lesson
 "Always check row multiplication when joining multiple 1‑to‑many tables before aggregating."
 
-query: no record
+## Query
+ no record

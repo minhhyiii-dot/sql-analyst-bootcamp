@@ -1,5 +1,5 @@
---- DAY 3 UPDATE ---
-DAY 3 | COMPLETED | 1h 21m | Level: 4/5
+# DAY 3 UPDATE
+**DAY 3 | COMPLETED | 1h 21m | Level: 4/5**
 Notes:
 - Practiced GROUP BY and HAVING with multi-table joins
 - Successfully calculated revenue metrics using SUM(quantity * unit_price)
