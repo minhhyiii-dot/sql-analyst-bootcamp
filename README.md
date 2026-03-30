@@ -1,6 +1,6 @@
 # E-commerce SQL Analysis
 
-## Streaks: 24
+## 25/42 Days
 
 ## Project Overview
 
