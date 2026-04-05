@@ -1,29 +1,68 @@
 # E-commerce SQL Analysis
 
-## 25/42 Days
+## Bootcamp Progress
+
+**Day 28 / 42**
+
+This repository is part of a **self-designed SQL Analyst Bootcamp**, where progress is tracked daily and skills are built step-by-step.
+
+---
 
 ## Project Overview
 
 This project analyzes e-commerce data including:
-- Revenue
-- Payments
-- Customers
+
+* Revenue
+* Payments
+* Customers
 
 Using SQL to extract insights and validate business logic.
 
 ---
 
-## Structure
+## Dataset & Data Logic
 
-- /queries → SQL practice & analysis
-- /SQL-Analyst-Bootcamp-42Days → daily learning logs
+The dataset is not real-world data: [ecommerce_db.sql](https://github.com/user-attachments/files/26117482/ecommerce_db.sql).
 
----This is a self-designed bootcamp where ChatGPT acts as a mentor, while all SQL logic and problem-solving are developed through hands-on practice.
+It is generated using a Python script to simulate an e-commerce system.
 
 
-##  Progress
+Even though the data is random, I intentionally designed it to include real-world scenarios such as:
 
-Currently on Day 14 of a 42-day SQL bootcamp.  
-Repository is continuously updated.
+* Orders without payment
+* Partial / mismatched payments
+* Cancelled / refunded orders
+* Discounted prices different from product price
 
-👉 See full learning log below
+---
+
+
+## Repository Structure
+
+* `/mini-project-*` → SQL mini projects
+* `/tracking` → day-by-day updates and queries
+
+This repository is built to track both my project work and my development through the 42-day SQL bootcamp.
+
+
+---
+
+
+## 📈 Learning System
+
+This is a **42-day SQL Bootcamp** designed to reach analyst-level proficiency.
+
+Key principles:
+
+* Write queries before asking for help
+* Focus on logic, not memorization
+* Track progress daily
+* Build projects to apply knowledge
+
+ChatGPT acts as a reviewer, while all SQL logic and problem-solving are developed through hands-on practice.
+
+---
+
+Full tracking available in `/tracking`
+
+
