@@ -24,7 +24,7 @@ Using SQL to extract insights and validate business logic.
 
 The dataset is not real-world data: [ecommerce_db.sql](https://github.com/user-attachments/files/26117482/ecommerce_db.sql).
 
-It is generated using a Python script to simulate an e-commerce system.
+It is generated using a Python script to simulate an e-commerce system: [generate_data.py](https://github.com/user-attachments/files/26490949/generate_data.py)
 
 
 Even though the data is random, I intentionally designed it to include real-world scenarios such as:
