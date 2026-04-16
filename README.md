@@ -2,7 +2,7 @@
 
 ## Bootcamp Progress
 
-**Day 28 / 42**
+**Day 31 / 42**
 
 This repository is part of a **self-designed SQL Analyst Bootcamp**, where progress is tracked daily and skills are built step-by-step.
 
