@@ -1,0 +1,51 @@
+ticker,company_name,exchange,headquarter_city,core_area,business_focus,market_cap_group,ownership_type,listing_year,years_listed,shares_outstanding_mn,equity_bn_vnd,book_value_per_share_vnd,land_bank_ha,avg_project_cycle_years,developer_reputation_score
+IEY,CTCP ??u t? Nhà Vi?t Thành,HNX,Hà N?i,Gia Lâm,industrial_park,mid,family,2014,12,467,9393.5,20113,661.9,6.8,67.6
+IGK,CTCP Phát tri?n Công nghi?p Minh Thành,HNX,Hà N?i,Hà ?ông,residential,large,state-linked,2012,14,2248.3,28852.4,12833,141.8,3.4,82.2
+ILZ,CTCP Nhà và Khu công nghi?p An Phúc,HOSE,H?i Phòng,Th?y Nguyên,residential,micro,private,2017,9,138.1,3234.4,23420,194.7,3.2,36.9
+IPA,CTCP Phát tri?n ?ô th? An Gia,HOSE,TP.HCM,Bình Tân,residential,mid,family,2021,5,1026.5,23428.7,22824,119.1,4.4,78.5
+IRQ,CTCP Nhà và Khu công nghi?p An Gia,HNX,Long An,C?n Giu?c,township,large,foreign-linked,2013,13,2721.8,41456.6,15231,189,8.3,80.6
+ITV,CTCP ??u t? ?ô th? Vi?t Thành,HOSE,TP.HCM,Bình Tân,mixed_use,small,private,2012,14,212.9,3861,18136,153.9,5.3,57.1
+IUB,CTCP Phát tri?n ?ô th? Ánh D??ng,HOSE,Hà N?i,Nam T? Liêm,mixed_use,mid,private,2012,14,1149.8,19021,16543,370.4,5.6,62.5
+IXG,CTCP ??u t? Nhà Hoàng Gia,HOSE,??ng Nai,Nh?n Tr?ch,mixed_use,small,state-linked,2011,15,198,4265.3,21545,194.8,3.9,59.1
+MBN,CTCP Phát tri?n Công nghi?p Tiên Phong,UPCoM,TP.HCM,Bình Chánh,mixed_use,large,private,2011,15,2157.4,23061.7,10690,218.2,5.6,89.4
+MCR,CTCP Khu ?ô th? Minh Thành,UPCoM,Hà N?i,Nam T? Liêm,mixed_use,mid,private,2019,7,554.8,8786.5,15836,166.1,4.3,81.4
+MDV,CTCP Phát tri?n ?ô th? H?ng Th?nh,HOSE,TP.HCM,Qu?n 9,mixed_use,mid,state-linked,2016,10,549.1,6221.8,11331,348.5,3.8,76.1
+MFC,CTCP B?S & H? t?ng Th?nh V??ng,HOSE,??ng Nai,Long Thành,mixed_use,mid,state-linked,2017,9,1148.4,13367.1,11639,112.5,5.4,72.9
+MHF,CTCP ??u t? ?ô th? Tiên Phong,HOSE,??ng Nai,Long Thành,mixed_use,mid,foreign-linked,2020,6,1190,27746.3,23317,123.8,3.8,81.5
+MKV,CTCP ??u t? ?ô th? Thành Công,UPCoM,Long An,Tân An,residential,large,private,2012,14,2695.3,30365.6,11266,319.1,3.6,86.2
+MPA,CTCP ??u t? ?ô th? ??i Phúc,HNX,Long An,B?n L?c,resort,large,family,2023,3,2360.4,48229.6,20433,340.9,4.8,95
+MRR,CTCP B?S & H? t?ng ??i Phúc,UPCoM,??ng Nai,Biên Hòa,residential,small,private,2016,10,334.6,4756.9,14219,223.4,4.6,76.6
+MRY,CTCP Nhà và Khu công nghi?p Vi?t H?ng,HOSE,TP.HCM,Qu?n 7,mixed_use,small,family,2016,10,293,5277.6,18014,289.3,5.1,51.9
+MSG,CTCP Nhà và Khu công nghi?p ??i Phúc,HOSE,Hà N?i,?ông Anh,mixed_use,mid,state-linked,2017,9,1081.5,15063.7,13929,203.6,5.4,81.9
+MUE,CTCP Phát tri?n Công nghi?p Mekong,HOSE,TP.HCM,Bình Chánh,industrial_park,mid,family,2010,16,572.8,12434.8,21708,1189.1,4.6,82.6
+MUV,CTCP Nhà và Khu công nghi?p Phú Khang,HOSE,Hà N?i,Nam T? Liêm,residential,small,family,2013,13,245.8,4691.7,19088,251.1,3.1,65.5
+MVP,CTCP ??a ?c An Gia,HOSE,H?i Phòng,Lê Chân,mixed_use,mid,private,2014,12,704.1,7286.1,10348,423.2,5,72.5
+MXB,CTCP Nhà và Khu công nghi?p Th?nh V??ng,HOSE,Hà N?i,Long Biên,resort,large,state-linked,2010,16,3464.5,48625.3,14035,385.5,6.3,88.5
+RFC,CTCP ??u t? ?ô th? Th?nh V??ng,HOSE,TP.HCM,Qu?n 9,township,large,private,2019,7,2979.6,65897.1,22116,659.8,5,84.2
+RJL,CTCP B?t ??ng s?n Nam Vi?t,HOSE,TP.HCM,Nhà Bè,resort,small,private,2016,10,230.7,4623.8,20047,417.2,5.7,50.8
+RNU,CTCP Phát tri?n H? t?ng Nam Vi?t,HOSE,Hà N?i,Nam T? Liêm,residential,micro,family,2019,7,122,1706.5,13984,319.1,3.8,56.2
+RNZ,CTCP Khu ?ô th? An Phúc,HOSE,?à N?ng,Liên Chi?u,resort,mid,private,2020,6,1126.9,14190.7,12593,311.7,5.3,53
+RSE,CTCP Phát tri?n ?ô th? Tiên Phong,HOSE,TP.HCM,Th? ??c,residential,small,family,2022,4,286.4,3313.5,11569,308.8,4.3,52.8
+RTP,CTCP ??u t? Nhà Thành Công,HOSE,TP.HCM,Bình Chánh,township,micro,state-linked,2022,4,84.7,1070.8,12637,142.8,8.4,54.8
+RTR,CTCP Phát tri?n ?ô th? Bình Minh,UPCoM,??ng Nai,Nh?n Tr?ch,mixed_use,mid,private,2012,14,900.6,14225.4,15796,197.5,4.4,84.5
+RVE,CTCP B?S & H? t?ng Minh Thành,UPCoM,TP.HCM,Qu?n 9,residential,mid,private,2022,4,545.2,12171.4,22325,210.9,3.7,56.7
+TDT,CTCP ??a ?c Vi?t H?ng,HNX,??ng Nai,Long Thành,mixed_use,mid,family,2018,8,835.9,17675.4,21144,272.5,5.7,61.9
+TJB,CTCP Phát tri?n ?ô th? An Phúc,HOSE,??ng Nai,Nh?n Tr?ch,township,small,state-linked,2017,9,333.9,7384.8,22118,702.6,6.5,75
+TMC,CTCP Phát tri?n H? t?ng H?ng Th?nh,HOSE,Hà N?i,?ông Anh,township,mid,private,2022,4,963.4,22513.8,23369,297.8,5.7,67.7
+TNL,CTCP ??u t? ?ô th? An Phúc,UPCoM,?à N?ng,Ng? Hành S?n,industrial_park,large,foreign-linked,2012,14,1900.3,33711.9,17741,297,4.7,90.4
+TPN,CTCP Nhà và Khu công nghi?p Vi?t Thành,HOSE,TP.HCM,Qu?n 9,residential,large,foreign-linked,2011,15,2151.2,35060.4,16298,123.6,5.1,67
+TQK,CTCP Phát tri?n ?ô th? Vi?t H?ng,HOSE,H?i Phòng,Lê Chân,mixed_use,small,private,2011,15,437.4,5645.5,12908,173.7,5.8,63.3
+TSC,CTCP B?S & H? t?ng Bình Minh,HOSE,??ng Nai,Biên Hòa,township,small,private,2020,6,382.7,8777.1,22933,439.7,6.8,61.3
+TTR,CTCP ??a ?c Minh Thành,HOSE,Hà N?i,Hoàng Mai,industrial_park,mid,foreign-linked,2013,13,1084.5,17671.9,16295,1092.5,6.6,85.4
+TTS,CTCP Nhà và Khu công nghi?p Tiên Phong,HOSE,TP.HCM,Qu?n 7,residential,small,private,2022,4,357,5201.9,14572,109.3,5.2,58.3
+TTT,CTCP ??a ?c An Phúc,HNX,?à N?ng,S?n Trà,industrial_park,small,private,2019,7,365.1,8123.3,22252,810.2,5.3,61.8
+VAU,CTCP ??u t? ?ô th? Ánh D??ng,HOSE,TP.HCM,Qu?n 9,industrial_park,mid,private,2015,11,643.4,10126.3,15740,418.9,4,82.6
+VGY,CTCP ??u t? ?ô th? An Gia,UPCoM,TP.HCM,Th? ??c,mixed_use,mid,foreign-linked,2014,12,653,12594.8,19288,121.4,4.6,72.4
+VJB,CTCP ??u t? ?ô th? Nam Vi?t,HOSE,Hà N?i,Gia Lâm,mixed_use,small,family,2014,12,404.7,5868.4,14502,357.1,5.7,58.1
+VKH,CTCP Phát tri?n H? t?ng An Phúc,HOSE,Long An,B?n L?c,industrial_park,large,private,2016,10,1413.3,21938.9,15523,937.8,7,66
+VLM,CTCP B?S & H? t?ng Thành Công,HOSE,Hà N?i,Hà ?ông,mixed_use,large,family,2017,9,3207.6,40711.2,12692,161.7,5.3,95
+VLX,CTCP ??u t? ?ô th? Mekong,HOSE,Hà N?i,Hà ?ông,resort,mid,private,2016,10,957.5,9589.2,10015,161.3,5.4,68.9
+VNL,CTCP Phát tri?n H? t?ng ??i Phúc,HOSE,Long An,B?n L?c,residential,small,private,2018,8,277.4,3802.5,13707,233.1,5.2,43
+VTJ,CTCP Khu ?ô th? Hoàng Gia,UPCoM,??ng Nai,Biên Hòa,mixed_use,small,family,2012,14,444.2,10480.5,23592,220.9,3.8,71.2
+VVA,CTCP ??u t? Nhà Vi?t H?ng,HOSE,Hà N?i,Long Biên,mixed_use,small,family,2020,6,329.7,5044.3,15300,115,4.5,60.1
+VVG,CTCP Phát tri?n ?ô th? Hoàng Gia,HOSE,Bình D??ng,D? An,township,mid,private,2018,8,1007.6,17078.6,16950,460,7.3,72.4
